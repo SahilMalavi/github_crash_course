@@ -6,4 +6,9 @@ function greet(name) {
 }
 console.log(greet("Alice"));
 
-module.exports = { age, greet };
+function isAbove18(age) {
+  return age > 18;
+}
+console.log(isAbove18(20));
+
+
