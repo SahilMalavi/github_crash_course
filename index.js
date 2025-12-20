@@ -6,7 +6,7 @@ function greet(name) {
 }
 console.log(greet("Alice"));
 
-function isAbove18(age) {
+function isAbove18(ag) {
   return age > 18;
 }
 console.log(isAbove18(20));
