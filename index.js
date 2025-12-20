@@ -10,5 +10,3 @@ function isAbove18(age) {
   return age > 18;
 }
 console.log(isAbove18(20));
-
-
