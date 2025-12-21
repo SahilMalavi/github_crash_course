@@ -10,3 +10,5 @@ function isAbove18(ag) {
   return age > 18;
 }
 console.log(isAbove18(20));
+
+module.exports = { age, greet, isAbove18 };
