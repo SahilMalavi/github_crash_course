@@ -1,7 +1,7 @@
 const { age,name, greet, isAbove18 } = require("./util.js");
 
 function getInfo() {
-  console.log("Getting user info...");
+  console.log("Getting user info....");
   console.log("---------------------");
   console.log(`Name: ${name}`);
   console.log(greet(name));
