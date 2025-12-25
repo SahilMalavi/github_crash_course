@@ -1,4 +1,4 @@
-const { age,name, greet, isAbove18 } = require("./util.js");
+const { age, name, greet, isAbove18 } = require("./util.js");
 
 function getInfo() {
   console.log("Getting user info....");
@@ -9,9 +9,4 @@ function getInfo() {
   console.log(`Age is ${age}`);
 }
 
-<<<<<<< Updated upstream
 getInfo();
-=======
-console.log("Executing index.js");
-getInfo();
->>>>>>> Stashed changes
