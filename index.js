@@ -9,4 +9,9 @@ function getInfo() {
   console.log(`Age is ${age}`);
 }
 
+<<<<<<< Updated upstream
 getInfo();
+=======
+console.log("Executing index.js");
+getInfo();
+>>>>>>> Stashed changes
