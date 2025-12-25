@@ -1,10 +1,14 @@
-const age = 21;
+const { age,name, greet, isAbove18 } = require("./util.js");
 
-function greet(name) {
-  return `Hello, ${name}!`;
+function getInfo() {
+  console.log(greet("Bob"));
+  console.log(`bob age is above 18: ${isAbove18(20)}`);
+  console.log(`Age is ${age}`);
 }
 
-function isAbove18(ag) {
-  return age > 18;
+
+function displayName() {
+  console.log(`Name is ${name}`);
 }
-module.exports = { age, greet, isAbove18 };
+
+displayName();
