@@ -11,4 +11,8 @@ function displayName() {
   console.log(`Name is ${name}`);
 }
 
+function displayAge() {
+  console.log(`Age is ${age}`);
+}
+
 displayName();
